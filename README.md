@@ -9,15 +9,16 @@ Restaurant Reviews Its main function is to show a map and list of restaurants in
 ## Features
 
 -	View all restaurants
--	View restaurants for a specific district or cuisine
--	View details of restaurants like opening hours and reviews
+-	Search for nearby restaurants
+-	View details of restaurants like opening hours, address and reviews
 -	Write reviews for a restaurant
 -	Edit review 
 -	Delete review 
 -	Mark a restaurant as favorite
 
+
 ### Use case Diagram
-![Screenshot](img/ use case.jpg)
+![Screenshot](img/ use0-case.jpg)
 
 ## Technologies Used
 
