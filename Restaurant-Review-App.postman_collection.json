@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "9a26d546-2c55-4dad-89f4-615bd368128e",
+		"name": "Restaurant-Review-App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Restaurants",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/restaurants",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"restaurants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Restaurants by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/restaurants/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"restaurants",
+						"3"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get favorite restaurants",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/restaurants/?is_favorite=true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"restaurants",
+						""
+					],
+					"query": [
+						{
+							"key": "is_favorite",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all restaurant reviews",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a restaurant review by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all reviews for a restaurant",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a new restaurant review",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/reviews/?restaurant_id=3&name=Albina R.&rating=3&comments=One of my favorite AYCE KBBQ places and that is saying a lot because I've been to so many. The meat is super fresh and all the banchan is super good.",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"reviews",
+						""
+					],
+					"query": [
+						{
+							"key": "restaurant_id",
+							"value": "3"
+						},
+						{
+							"key": "name",
+							"value": "Albina R."
+						},
+						{
+							"key": "rating",
+							"value": "3"
+						},
+						{
+							"key": "comments",
+							"value": "One of my favorite AYCE KBBQ places and that is saying a lot because I've been to so many. The meat is super fresh and all the banchan is super good."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Favorite a restaurant",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/restaurants/5/?is_favorite=true\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"restaurants",
+						"5",
+						""
+					],
+					"query": [
+						{
+							"key": "is_favorite",
+							"value": "true\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Unfavorite a restaurant",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/restaurants/4/?is_favorite=false\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"restaurants",
+						"4",
+						""
+					],
+					"query": [
+						{
+							"key": "is_favorite",
+							"value": "false\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a restaurant review",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/reviews/3?name=Jason&rating=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"reviews",
+						"3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Jason"
+						},
+						{
+							"key": "rating",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a restaurant review",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
