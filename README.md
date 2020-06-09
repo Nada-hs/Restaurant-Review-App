@@ -18,7 +18,7 @@ Restaurant Reviews Its main function is to show a map and list of restaurants in
 
 
 ### Use case Diagram
-![Use-Case-Diagram](img/use-case.jpg)
+![Use-Case-Diagram](img/use-case.png)
 
 ## Technologies Used
 
