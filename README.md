@@ -81,7 +81,7 @@ Local server
 ````
 
 ## References 
-[Udacity] (shorturl.at/jkBLO)
+[Udacity](shorturl.at/jkBLO)
 
 
 ## Acknowledgments
